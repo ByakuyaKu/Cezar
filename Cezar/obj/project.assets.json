@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Toga\\.nuget\\packages\\": {},
+    "C:\\Users\\Aspire R5-571PG\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GERASKIN\\Cezar\\Cezar\\Cezar.csproj",
+      "projectUniqueName": "C:\\Cezar\\Cezar\\Cezar.csproj",
       "projectName": "Cezar",
-      "projectPath": "D:\\GERASKIN\\Cezar\\Cezar\\Cezar.csproj",
-      "packagesPath": "C:\\Users\\Toga\\.nuget\\packages\\",
-      "outputPath": "D:\\GERASKIN\\Cezar\\Cezar\\obj\\",
+      "projectPath": "C:\\Cezar\\Cezar\\Cezar.csproj",
+      "packagesPath": "C:\\Users\\Aspire R5-571PG\\.nuget\\packages\\",
+      "outputPath": "C:\\Cezar\\Cezar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Toga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aspire R5-571PG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

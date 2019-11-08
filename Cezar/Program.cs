@@ -7,25 +7,26 @@ namespace Cezar
     {
         static void Main(string[] args)
         {
+
             string alph = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ-.?!0123456789";
 
-            Console.WriteLine(alph.Length);
+            int n = 4;
 
             Console.WriteLine("Enter text for encryption:");
             string inputText = Console.ReadLine();
 
             Console.WriteLine("Result of encryption:");
-            Console.WriteLine(TextEncryption(inputText, alph));
+            Console.WriteLine(TextEncryption(inputText, alph, n));
 
             Console.WriteLine("Result of decryption:");
-            Console.WriteLine(TextDecryption(TextEncryption(inputText, alph), alph));
+            Console.WriteLine(TextDecryption(TextEncryption(inputText, alph, n), alph, n));
 
             Console.ReadKey();
         }
 
-        static string TextEncryption(string inputText, string alph)
+        static string TextEncryption(string inputText, string alph, int n)
         {
-            int n = 4, k = 5, m = alph.Length;
+            int a = 2, m = alph.Length;
 
             string result = "";
 
@@ -33,16 +34,16 @@ namespace Cezar
                 for (int j = 0; j < alph.Length; j++)
                     if (inputText[i].Equals(alph[j]))
                     {
-                        result += alph[(j + n) % m];
+                        result += alph[(a * j + n) % m];
                         break;
                     }
 
             return result;
         }
 
-        static string TextDecryption(string inputText, string alph)
+        static string TextDecryption(string inputText, string alph, int n)
         {
-            int n = 4, k = 5, m = alph.Length;
+            int a = 41, m = alph.Length;
 
             string result = "";
 
@@ -50,7 +51,7 @@ namespace Cezar
                 for (int j = 0; j < alph.Length; j++)
                     if (inputText[i] == alph[j])
                     {
-                            result += alph[(j - n) % m];
+                        result += alph[((j + m - n) * a) % m];
                             break;
                     }
 

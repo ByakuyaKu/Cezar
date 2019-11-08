@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Toga\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Toga\\.nuget\\packages",
+      "C:\\Users\\Aspire R5-571PG\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Aspire R5-571PG\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
