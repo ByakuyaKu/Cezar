@@ -1,0 +1,11 @@
+D:\GERASKIN\Cezar\Cezar\bin\Debug\netcoreapp2.1\Cezar.deps.json
+D:\GERASKIN\Cezar\Cezar\bin\Debug\netcoreapp2.1\Cezar.runtimeconfig.json
+D:\GERASKIN\Cezar\Cezar\bin\Debug\netcoreapp2.1\Cezar.runtimeconfig.dev.json
+D:\GERASKIN\Cezar\Cezar\bin\Debug\netcoreapp2.1\Cezar.dll
+D:\GERASKIN\Cezar\Cezar\bin\Debug\netcoreapp2.1\Cezar.pdb
+D:\GERASKIN\Cezar\Cezar\obj\Debug\netcoreapp2.1\Cezar.csprojAssemblyReference.cache
+D:\GERASKIN\Cezar\Cezar\obj\Debug\netcoreapp2.1\Cezar.csproj.CoreCompileInputs.cache
+D:\GERASKIN\Cezar\Cezar\obj\Debug\netcoreapp2.1\Cezar.AssemblyInfoInputs.cache
+D:\GERASKIN\Cezar\Cezar\obj\Debug\netcoreapp2.1\Cezar.AssemblyInfo.cs
+D:\GERASKIN\Cezar\Cezar\obj\Debug\netcoreapp2.1\Cezar.dll
+D:\GERASKIN\Cezar\Cezar\obj\Debug\netcoreapp2.1\Cezar.pdb
